@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Nguyễn Thị Tuyết -B19DCDT212</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="header bg-secondary text-warning text-center font-weight-bold">THỜI TIẾT</div>
+        <div class="row bg-info text-center font-weight-bold">
+            <div class="table-header col ">Nhiệt độ</div>
+            <div class="table-header col ">Độ ẩm</div>
+            <div class="table-header col ">Ánh sáng</div>
+        </div>
+        <div class="row bg-success text-center font-weight-bold">
+            <div class="table-content col ">32 độ C </div>
+            <div class="table-content col ">70%</div>
+            <div class="table-content col ">60 lux</div>
+        </div>
+        <div class="row">
+            <div class="col-8 mt-3"><img src="https://sieuphuot.com/wp-content/uploads/2022/02/nhet-do-nghe-an.jpg.webp" alt="biểu đồ"></div>
+            <div class="col-4 mt-3">
+                <div class="d-flex flex-column justify-content-around align-items-center" style="height: 100%; border: 100px solid rgb(9, 3, 58)">
+                    <div class="text-center">
+                        <h3 style="font-size: 50px;">Công tắc 1</h3>
+                        <button class="btn btn-success btn-lg">ON</button>
+                        <button class="btn btn-danger btn-lg">OFF</button>
+                    </div>
+                    <div class="text-center">
+                        <h3 style="font-size: 50px;">Công tắc 2</h3>
+                        <button onclick="switchOnOff(this)" class="btn btn-success btn-lg">ON</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./main.js"></script>
+</html>
